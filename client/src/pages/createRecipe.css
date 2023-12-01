@@ -1,0 +1,37 @@
+/* .createRecipe{
+    background-color:pink;
+    
+}
+*/
+.createMain {
+    width: 100vw;
+    background-image: url('../img/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.createRecipe {
+    margin-top: 1rem;
+    margin-left: 35%;
+}
+
+.createRecipe h2 {
+    margin-left: 30%;
+}
+
+.createRecForm {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50vw;
+    
+}
+
+.btn {
+    width: 20%;
+    margin-left: 40%;
+    background-color: rgb(245, 87, 24);
+    font-size: .9rem;
+    font-weight: 550;
+}

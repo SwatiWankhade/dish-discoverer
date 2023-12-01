@@ -1,0 +1,31 @@
+/* .homeConatiner{ */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    /* gap: 20px; */ 
+/* } */
+
+.recipe{   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px;   
+    }     
+      
+
+li {
+    border: 2px solid rgb(153, 150, 150);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .upperCon{
+    display: flex;
+    /* margin-top: 1rem; */
+    justify-content: space-between;
+  }
+  .upperCon h2{
+    margin: 1rem;
+  }
+  .saveBtn{
+    background-color: rgb(45, 235, 83);
+    font-size: .8rem;
+    padding: .5rem;
+  }
